@@ -1,0 +1,125 @@
+.FourthMaindiv{
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.FourthMaindiv::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+
+
+.scroll-container {
+    width:max-content;
+    overflow-x: scroll;
+    white-space: nowrap;
+    position: relative;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+   
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+ background-color: rgb(250, 249, 239); ;
+  }
+  
+  
+  
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .scroll-left {
+    left: 10px;
+  }
+  
+  .scroll-right {
+    right: 10px;
+  }
+  
+
+
+
+
+
+
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+
+}
+.firstp {
+  font-size: 0.8rem;
+}
+.title {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: larger;
+}
+.secondp {
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: auto;
+  width: 500px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 16px;
+}
+
+.right-arrow {
+  right: 16px;
+}
+
+.imagesrollbardiv{
+    padding-top: 10rem;
+    height:500;
+    width: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:0.8rem ;
+}
+.imagesrollbardiv img{
+    height: 100px;
+    width: 200px;
+}

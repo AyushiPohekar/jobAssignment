@@ -1,0 +1,51 @@
+.NavabarOne{
+    padding: 12px 20px 8px;
+    width: 100%;
+    background-color: #252525;
+    color: #fffef2;
+    height: auto;
+    font-size: 1rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavabarOne:hover{
+    text-decoration: underline;
+}
+.NavbarTwo{
+    background-color: #333333;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.Seconddiv{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: #fffef2;
+    font-size: 0.9rem;
+}
+.Seconddiv a:hover{
+    text-decoration: underline;
+}
+.FirstDiv{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: #fffef2;
+    font-size: 0.9rem;
+}
+.FirstDiv a:hover{
+    text-decoration: underline;
+}
+.Seconddiv a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

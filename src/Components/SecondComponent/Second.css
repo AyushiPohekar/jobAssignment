@@ -1,0 +1,56 @@
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+   background-color: rgb(246, 245, 232);
+}
+.secondleft{
+    flex: 6;
+}
+.secondleft img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.secondRight{
+    flex: 6;
+    padding: 5rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.secondRight h1{
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.secondRight div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.firstp{
+font-size: 0.8rem;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+.secondp{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.secondRight div button{
+    background-color: rgb(246, 245, 232);
+    border: 1px solid black;
+    width: max-content;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 1025px){
+    .secondDiv{
+      flex-direction: row-reverse;
+  flex-wrap: wrap;
+       
+    }
+}
